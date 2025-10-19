@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /linkme/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/linkme/(login|register|logout|dashboard|redirect|ajax_handler)\.php
+RewriteCond %{REQUEST_URI} !^/linkme/(css|js|includes|config)/
+RewriteRule ^(.*)$ index.php?username=$1 [QSA,L]
