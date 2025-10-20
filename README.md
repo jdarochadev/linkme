@@ -1,5 +1,7 @@
 # Link Manager
 
+# Projeto desenvolvido com intuito de estudo e prática.
+
 Sistema para gerenciar links de redes sociais, tipo Linktree.
 
 ## Stack
