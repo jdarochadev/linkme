@@ -3,6 +3,7 @@
 # Projeto desenvolvido com intuito de estudo e prática.
 
 Sistema para gerenciar links de redes sociais, tipo Linktree.
+Não foi feito deploy da aplicação, logo toda ela deve ser utilizada em ambiente local apenas para a visualização.
 
 ## Stack
 
